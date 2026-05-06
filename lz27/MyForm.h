@@ -383,7 +383,8 @@ private: System::Void інформаціяToolStripMenuItem_Click(System::Object^ sender, 
 	MessageBox::Show("Ця програма дозволяє працювати з двома таблицями, заповненими випадковими числами. Ви можете згенерувати різні числа для обох таблиць, обчислити середнє арифметичне додатних чисел з першої таблиці та відсортувати парні стовпці обох таблиць за спаданням.", "Інформація про програму", MessageBoxButtons::OK, MessageBoxIcon::Information);
 }
 private: System::Void розробникToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-	MessageBox::Show("Розробник: Винарчик Софія, студентка групи 3СОМ", "Про автора", MessageBoxButtons::OK, MessageBoxIcon::Information);
+
+	MessageBox::Show("Розробник: Винарчик  Софія, студентка групи 3СОМ", "Про автора", MessageBoxButtons::OK, MessageBoxIcon::Information);
 }
 };
 }
